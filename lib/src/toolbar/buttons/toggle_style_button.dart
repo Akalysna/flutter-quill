@@ -50,6 +50,8 @@ class QuillToolbarToggleStyleButtonState
     switch (widget.attribute.key) {
       case 'bold':
         return (context.loc.bold, Icons.format_bold);
+      case 'us':
+        return (context.loc.userStory, Icons.history_edu);
       case 'script':
         if (widget.attribute.value == ScriptAttributes.sub.value) {
           return (context.loc.subscript, Icons.subscript);

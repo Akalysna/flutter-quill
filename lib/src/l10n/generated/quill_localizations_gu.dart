@@ -334,4 +334,7 @@ class FlutterQuillLocalizationsGu extends FlutterQuillLocalizations {
   @override
   String get saveImagePermissionDenied =>
       'પરવાનગીના અભાવને કારણે છબી સાચવી શકાય નથી';
+
+  @override
+  String get userStory => 'User Story';
 }

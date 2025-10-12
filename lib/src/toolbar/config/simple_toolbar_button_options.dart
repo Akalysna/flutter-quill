@@ -48,6 +48,7 @@ class QuillSimpleToolbarButtonOptions {
     this.fontFamily = const QuillToolbarFontFamilyButtonOptions(),
     this.fontSize = const QuillToolbarFontSizeButtonOptions(),
     this.bold = const QuillToolbarToggleStyleButtonOptions(),
+    this.us = const QuillToolbarToggleStyleButtonOptions(),
     this.subscript = const QuillToolbarToggleStyleButtonOptions(),
     this.superscript = const QuillToolbarToggleStyleButtonOptions(),
     this.italic = const QuillToolbarToggleStyleButtonOptions(),
@@ -95,6 +96,7 @@ class QuillSimpleToolbarButtonOptions {
   final QuillToolbarFontFamilyButtonOptions fontFamily;
   final QuillToolbarFontSizeButtonOptions fontSize;
   final QuillToolbarToggleStyleButtonOptions bold;
+  final QuillToolbarToggleStyleButtonOptions us;
   final QuillToolbarToggleStyleButtonOptions subscript;
   final QuillToolbarToggleStyleButtonOptions superscript;
   final QuillToolbarToggleStyleButtonOptions italic;

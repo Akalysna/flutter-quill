@@ -92,6 +92,13 @@ class QuillSimpleToolbar extends StatelessWidget
               controller: controller,
               baseOptions: config.buttonOptions.base,
             ),
+          if (config.showUSButton)
+            QuillToolbarToggleStyleButton(
+              attribute: Attribute.us,
+              options: config.buttonOptions.us,
+              controller: controller,
+              baseOptions: config.buttonOptions.base,
+            ),
           if (config.showItalicButton)
             QuillToolbarToggleStyleButton(
               attribute: Attribute.italic,

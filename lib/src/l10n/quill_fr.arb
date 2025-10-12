@@ -96,5 +96,6 @@
   "searchSettings": "Paramètres de recherche",
   "cut": "Couper",
   "paste": "Coller",
-  "insertTable": "Insérer un tableau"
+  "insertTable": "Insérer un tableau", 
+  "userStory": "Lier à une histoire utilisateur"
 }

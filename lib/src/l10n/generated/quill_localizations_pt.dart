@@ -332,6 +332,9 @@ class FlutterQuillLocalizationsPt extends FlutterQuillLocalizations {
   @override
   String get saveImagePermissionDenied =>
       'Couldn’t save the image due to missing permission';
+
+  @override
+  String get userStory => 'User Story';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).

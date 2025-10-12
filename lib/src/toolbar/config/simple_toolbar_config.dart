@@ -79,6 +79,7 @@ class QuillSimpleToolbarConfig {
     this.showFontFamily = true,
     this.showFontSize = true,
     this.showBoldButton = true,
+    this.showUSButton = true,
     this.showItalicButton = true,
     this.showSmallButton = false,
     this.showUnderLineButton = true,
@@ -151,6 +152,7 @@ class QuillSimpleToolbarConfig {
   final bool showFontFamily;
   final bool showFontSize;
   final bool showBoldButton;
+  final bool showUSButton;
   final bool showItalicButton;
   final bool showSmallButton;
   final bool showUnderLineButton;

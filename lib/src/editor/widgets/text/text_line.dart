@@ -546,6 +546,7 @@ class _TextLineState extends State<TextLine> {
 
     <String, TextStyle?>{
       Attribute.bold.key: defaultStyles.bold,
+      Attribute.us.key: defaultStyles.us,
       Attribute.italic.key: defaultStyles.italic,
       Attribute.small.key: defaultStyles.small,
       Attribute.link.key: defaultStyles.link,

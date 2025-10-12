@@ -98,6 +98,12 @@ class CustomToolbar extends StatelessWidget {
           ),
           const VerticalDivider(),
           QuillToolbarLinkStyleButton(controller: controller),
+          const VerticalDivider(),
+          QuillToolbarToggleStyleButton(
+            options: const QuillToolbarToggleStyleButtonOptions(),
+            controller: controller,
+            attribute: Attribute.us,
+          ),
         ],
       ),
     );

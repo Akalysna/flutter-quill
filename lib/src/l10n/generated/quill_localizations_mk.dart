@@ -338,4 +338,7 @@ class FlutterQuillLocalizationsMk extends FlutterQuillLocalizations {
   @override
   String get saveImagePermissionDenied =>
       'Не е можно зачувување на сликата поради недостасувачка дозвола';
+
+  @override
+  String get userStory => 'User Story';
 }

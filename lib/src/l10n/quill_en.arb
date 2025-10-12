@@ -141,5 +141,9 @@
   "saveImagePermissionDenied": "Couldn’t save the image due to missing permission",
   "@saveImagePermissionDenied": {
     "description": "Message shown when the app is unable to save an image because a required permission was denied or skipped"
+  },
+  "userStory": "User Story", 
+  "@userStory": {
+    "description": "Label for the button that opens the user story"
   }
 }

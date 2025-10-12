@@ -1,4 +1,8 @@
 {
+  "am": [
+    "userStory"
+  ],
+
   "ar": [
     "insertVideo",
     "errorUnexpectedSavingImage",
@@ -8,7 +12,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "bg": [
@@ -20,7 +25,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "bn": [
@@ -32,7 +38,12 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
+  ],
+
+  "bs": [
+    "userStory"
   ],
 
   "ca": [
@@ -44,7 +55,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "cs": [
@@ -56,7 +68,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "da": [
@@ -68,7 +81,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "de": [
@@ -80,7 +94,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "el": [
@@ -92,7 +107,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "en_US": [
@@ -104,7 +120,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "es": [
@@ -116,7 +133,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "fa": [
@@ -128,7 +146,12 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
+  ],
+
+  "fi": [
+    "userStory"
   ],
 
   "fr": [
@@ -143,6 +166,10 @@
     "saveImagePermissionDenied"
   ],
 
+  "gu": [
+    "userStory"
+  ],
+
   "he": [
     "insertVideo",
     "errorUnexpectedSavingImage",
@@ -152,7 +179,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "hi": [
@@ -164,7 +192,12 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
+  ],
+
+  "hr": [
+    "userStory"
   ],
 
   "hu": [
@@ -176,7 +209,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "id": [
@@ -188,7 +222,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "it": [
@@ -200,7 +235,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "ja": [
@@ -212,7 +248,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "km": [
@@ -223,7 +260,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "ko": [
@@ -235,7 +273,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "ku": [
@@ -247,7 +286,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "ku_CKB": [
@@ -259,7 +299,12 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
+  ],
+
+  "mk": [
+    "userStory"
   ],
 
   "ms": [
@@ -271,7 +316,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "ne": [
@@ -283,7 +329,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "nl": [
@@ -295,7 +342,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "no": [
@@ -307,7 +355,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "pl": [
@@ -319,7 +368,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "pt": [
@@ -331,7 +381,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "pt_BR": [
@@ -343,7 +394,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "ro": [
@@ -355,7 +407,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "ro_RO": [
@@ -367,7 +420,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "ru": [
@@ -379,7 +433,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "sk": [
@@ -391,7 +446,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "sr": [
@@ -403,7 +459,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "sv": [
@@ -415,7 +472,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "sw": [
@@ -427,7 +485,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "th": [
@@ -439,7 +498,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "tk": [
@@ -451,7 +511,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "tr": [
@@ -463,7 +524,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "uk": [
@@ -475,7 +537,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "ur": [
@@ -487,7 +550,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "vi": [
@@ -499,7 +563,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "zh": [
@@ -511,7 +576,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "zh_CN": [
@@ -523,7 +589,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "zh_HK": [
@@ -535,7 +602,8 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ],
 
   "zh_TW": [
@@ -547,6 +615,7 @@
     "openGallery",
     "openFileLocation",
     "openFile",
-    "saveImagePermissionDenied"
+    "saveImagePermissionDenied",
+    "userStory"
   ]
 }

@@ -1,4 +1,6 @@
 import 'dart:collection' show LinkedHashSet, LinkedHashMap;
+import 'dart:convert';
+import 'dart:math';
 
 import 'package:flutter/foundation.dart' show immutable;
 import 'package:quiver/core.dart';
@@ -28,6 +30,7 @@ class Attribute<T> {
 
   static final Map<String, Attribute> _registry = LinkedHashMap.of({
     Attribute.bold.key: Attribute.bold,
+    Attribute.us.key: Attribute.us,
     Attribute.subscript.key: Attribute.subscript,
     Attribute.superscript.key: Attribute.superscript,
     Attribute.italic.key: Attribute.italic,
@@ -59,6 +62,8 @@ class Attribute<T> {
   });
 
   static const BoldAttribute bold = BoldAttribute();
+
+  static final USAttribute us = USAttribute();
 
   static final ScriptAttribute subscript =
       ScriptAttribute(ScriptAttributes.sub);
@@ -122,6 +127,7 @@ class Attribute<T> {
 
   static final inlineKeys = Set.unmodifiable(<String>{
     Attribute.bold.key,
+    Attribute.us.key,
     Attribute.subscript.key,
     Attribute.superscript.key,
     Attribute.italic.key,
@@ -292,6 +298,16 @@ class Attribute<T> {
   String toString() {
     return 'Attribute{key: $key, scope: $scope, value: $value}';
   }
+}
+
+class USAttribute extends Attribute<String> {
+  USAttribute() : super('us', AttributeScope.inline, getRandId(10));
+}
+
+String getRandId(int len) {
+  final random = Random.secure();
+  final values = List<int>.generate(len, (i) => random.nextInt(255));
+  return base64UrlEncode(values);
 }
 
 class BoldAttribute extends Attribute<bool> {

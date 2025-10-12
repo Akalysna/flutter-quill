@@ -35,6 +35,12 @@ Map<SingleActivator, Intent> defaultSinlgeActivatorIntents() {
       LogicalKeyboardKey.keyU,
       control: !_isDesktopMacOS,
       meta: _isDesktopMacOS,
+      shift: true,
+    ): ToggleTextStyleIntent(Attribute.us),
+    SingleActivator(
+      LogicalKeyboardKey.keyU,
+      control: !_isDesktopMacOS,
+      meta: _isDesktopMacOS,
     ): const ToggleTextStyleIntent(Attribute.underline),
     SingleActivator(
       LogicalKeyboardKey.keyI,

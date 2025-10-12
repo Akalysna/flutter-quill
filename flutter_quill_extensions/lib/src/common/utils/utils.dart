@@ -1,3 +1,6 @@
+import 'dart:convert';
+import 'dart:math';
+
 import 'patterns.dart';
 
 bool isBase64(String str) {
@@ -27,4 +30,10 @@ bool isYouTubeUrl(String videoUrl) {
   } catch (_) {
     return false;
   }
+}
+
+String getRandId(int len) {
+  final random = Random.secure();
+  final values = List<int>.generate(len, (i) =>  random.nextInt(255));
+  return base64UrlEncode(values);
 }

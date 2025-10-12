@@ -329,6 +329,9 @@ class FlutterQuillLocalizationsZh extends FlutterQuillLocalizations {
   @override
   String get saveImagePermissionDenied =>
       'Couldn’t save the image due to missing permission';
+
+  @override
+  String get userStory => 'User Story';
 }
 
 /// The translations for Chinese, as used in China (`zh_CN`).

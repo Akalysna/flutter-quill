@@ -331,4 +331,7 @@ class FlutterQuillLocalizationsAm extends FlutterQuillLocalizations {
   @override
   String get saveImagePermissionDenied =>
       'የሚያስፈልገው ፈቃድ ስለሌለ ምስሉን ማስቀመጥ አልተቻለም።';
+
+  @override
+  String get userStory => 'User Story';
 }

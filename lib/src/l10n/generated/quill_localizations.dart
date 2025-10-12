@@ -829,6 +829,12 @@ abstract class FlutterQuillLocalizations {
   /// In en, this message translates to:
   /// **'Couldn’t save the image due to missing permission'**
   String get saveImagePermissionDenied;
+
+  /// Label for the button that opens the user story
+  ///
+  /// In en, this message translates to:
+  /// **'User Story'**
+  String get userStory;
 }
 
 class _FlutterQuillLocalizationsDelegate

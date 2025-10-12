@@ -333,4 +333,7 @@ class FlutterQuillLocalizationsFi extends FlutterQuillLocalizations {
   @override
   String get saveImagePermissionDenied =>
       'Kuvan tallentaminen estetty puuttuvan luvan takia';
+
+  @override
+  String get userStory => 'User Story';
 }

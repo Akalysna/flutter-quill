@@ -335,4 +335,7 @@ class FlutterQuillLocalizationsHr extends FlutterQuillLocalizations {
   @override
   String get saveImagePermissionDenied =>
       'Nije moguće spremiti sliku zbog nedostajuće dozvole';
+
+  @override
+  String get userStory => 'User Story';
 }

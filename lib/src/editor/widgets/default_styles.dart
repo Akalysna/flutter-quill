@@ -227,6 +227,7 @@ class DefaultStyles {
     this.lineHeightOneAndHalf,
     this.lineHeightDouble,
     this.bold,
+    this.us,
     this.subscript,
     this.superscript,
     this.italic,
@@ -261,6 +262,7 @@ class DefaultStyles {
   final DefaultTextBlockStyle? lineHeightOneAndHalf;
   final DefaultTextBlockStyle? lineHeightDouble;
   final TextStyle? bold;
+  final TextStyle? us;
   final TextStyle? subscript;
   final TextStyle? superscript;
   final TextStyle? italic;
@@ -423,6 +425,7 @@ class DefaultStyles {
         null,
       ),
       bold: const TextStyle(fontWeight: FontWeight.bold),
+      us: TextStyle(fontStyle: FontStyle.italic, color: Colors.blueAccent, backgroundColor: Colors.blue.withAlpha(100)),
       subscript: const TextStyle(
         fontFeatures: [
           FontFeature.liningFigures(),
@@ -540,6 +543,7 @@ class DefaultStyles {
       h6: other.h6 ?? h6,
       paragraph: other.paragraph ?? paragraph,
       bold: other.bold ?? bold,
+      us: other.us ?? us,
       subscript: other.subscript ?? subscript,
       superscript: other.superscript ?? superscript,
       italic: other.italic ?? italic,
