@@ -207,7 +207,7 @@ class DefaultListBlockStyle extends DefaultTextBlockStyle {
       checkboxUIBuilder ?? this.checkboxUIBuilder,
       indentWidthBuilder: indentWidthBuilder ?? this.indentWidthBuilder,
       numberPointWidthBuilder:
-      numberPointWidthBuilder ?? this.numberPointWidthBuilder,
+          numberPointWidthBuilder ?? this.numberPointWidthBuilder,
     );
   }
 }
@@ -425,7 +425,14 @@ class DefaultStyles {
         null,
       ),
       bold: const TextStyle(fontWeight: FontWeight.bold),
-      us: TextStyle(fontStyle: FontStyle.italic, color: Colors.blueAccent, backgroundColor: Colors.blue.withAlpha(100)),
+      us: TextStyle(
+          background: Paint()
+          ..style = PaintingStyle.stroke
+          ..strokeWidth = 2
+          ..strokeJoin = StrokeJoin.round
+          ..strokeCap = StrokeCap.round
+          ..color = const Color(0xFFBB5DEA),
+          ),
       subscript: const TextStyle(
         fontFeatures: [
           FontFeature.liningFigures(),

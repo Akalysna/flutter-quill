@@ -113,6 +113,7 @@ class QuillToolbarArrowIndicatedButtonListState
           scrollDirection: widget.axis,
           controller: _controller,
           physics: const ClampingScrollPhysics(),
+          scrollBehavior: ScrollConfiguration.of(context).copyWith(scrollbars: false),
           slivers: [
             SliverFillRemaining(
               hasScrollBody: false,
