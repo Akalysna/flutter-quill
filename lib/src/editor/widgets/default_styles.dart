@@ -535,7 +535,7 @@ class DefaultStyles {
         null,
       ),
       sizeSmall: const TextStyle(fontSize: 10),
-      sizeLarge: const TextStyle(fontSize: 18),
+      sizeLarge: const TextStyle(fontSize: 16),
       sizeHuge: const TextStyle(fontSize: 22),
     );
   }
